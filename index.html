@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Korean NLP preprocess</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <h1>Korean NLP preprocess</h1>
+      </div>
+    </header>
+    <hr />
+    <div>
+      <h3>choose preprocess type</h3>
+      <button onclick="clickPreprocessType('띄어쓰기', 'split-sentence');">
+        띄어쓰기
+      </button>
+      <!--<button onclick="clickPreprocessType('형태소분석');">형태소분석</button>-->
+    </div>
+    <hr />
+    <div>
+      <label>preprocess : </label>
+      <input id="selectType" type="text" readonly />
+      <input type="hidden" id="targetUrl" />
+    </div>
+    <hr />
+    <div>
+      <h3>input</h3>
+      <textarea id="inputText" name="content" cols="40" rows="8"></textarea>
+      <button type="button" onclick="clkBtn()">submit</button>
+    </div>
+    <hr />
+    <div>
+      <h3>result</h3>
+      <textarea id="result" cols="40" rows="8" readonly></textarea>
+    </div>
+    <script src="./js/script.js"></script>
+    <!--<footer>footer</footer>-->
+  </body>
+</html>

@@ -1,0 +1,17 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    cursor: pointer;
+}
+
+h1 {
+    color: black;
+    line-height: normal;
+    padding-left: 10px;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
