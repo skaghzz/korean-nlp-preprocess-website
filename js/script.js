@@ -19,7 +19,7 @@ function clkBtn() {
     type: "POST",
     contentType: "application/json",
     dataType: 'JSON',
-    url: "http://127.0.0.1:5000/api/" + targetUrl, // form을 전송할 실제 파일경로
+    url: "https://korean-nlp-preprocess-api.herokuapp.com/api/" + targetUrl, // form을 전송할 실제 파일경로
     data: JSON.stringify(data),
     processData: false,
     cache: false,
