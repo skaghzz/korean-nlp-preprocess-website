@@ -12,7 +12,7 @@ function clkBtn() {
     return alert('전처리를 선택하세요');
   }
   var data = {
-    "texts": texts
+    "texts": [texts]
   }
   console.log(data);
   $.ajax({
